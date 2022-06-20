@@ -1,13 +1,55 @@
 body {
-  margin: 0;
+  margin: auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display:grid;
+
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{
+  margin : auto;
+  padding :10px ;
+ 
+}
+.card{
+  background-color:burlywood;
+  width:100%;
+  height:auto;
+  margin:10px 0;
+  border-radius: 10px;
+  border: 10px solid ;
+  display:flex;
+  justify-content: space-between;
+  
+}
+.cardTitle{
+  width:100%;
+  height:200px;
+  border-radius: 50%;
+  padding: 5px
+  
+}
+.cardBody{
+   padding: 50px 10px;
+   text-align: center;
+ 
+
+}
+
+
+
+
+
+
+
+
+
