@@ -1,10 +1,11 @@
 // Kalian bisa menambahkan CSS di src/components/Header.css
 import React from 'react';
 
+
 const Header = () => {
     const myStyle = {
-        color: "white",
-        backgroundColor: "DodgerBlue",
+        color: "black",
+        backgroundColor: "coral",
         padding: "10px",
         fontFamily: "Sans-Serif"
         

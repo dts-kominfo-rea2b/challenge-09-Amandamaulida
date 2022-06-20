@@ -7,6 +7,7 @@ import contacts from '../data/contacts.json'
 const Contact = ({data}) => {
 
     return (
+        
         <>      
             <div class="container">
                 <div class="card">
